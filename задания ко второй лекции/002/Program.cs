@@ -13,7 +13,7 @@ if(X == 0 || Y == 0){
 	Console.Write("№ кординатной плоскасти: ");
 	if( X > 0 && Y > 0) Console.WriteLine(1);
 	if( X < 0 && Y > 0) Console.WriteLine(2);
-	if( X > 0 && Y < 0) Console.WriteLine(3);
-	if( X < 0 && Y < 0) Console.WriteLine(4);
+	if( X > 0 && Y < 0) Console.WriteLine(4);
+	if( X < 0 && Y < 0) Console.WriteLine(3);
 }
 Console.WriteLine("=============================");
