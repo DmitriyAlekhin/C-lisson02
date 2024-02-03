@@ -16,6 +16,7 @@ void revers_array(ref int[] arr){
 		revers_array[i] = arr[arr.Length - i - 1];
 	}
 	arr = revers_array;
+	
 }
 
 void random_number(ref int[] arr){
